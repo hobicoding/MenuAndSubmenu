@@ -20,5 +20,25 @@ namespace ContohLogin
         {
             Application.Restart();
         }
+
+        private void menuMasterItem_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("INI ADALAH MENU MASTER ITEM");
+        }
+
+        private void menuMasterSupplier_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("INI ADALAH MENU MASTER SUPPLIER");
+        }
+
+        private void subMenuItemStandard_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("INI ADALAH SUBMENU ITEM STANDARD");
+        }
+
+        private void submenuItemNonStandard_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("INI ADALAH SUBMENU ITEM NON STANDARD");
+        }
     }
 }
